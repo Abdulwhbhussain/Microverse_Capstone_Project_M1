@@ -1,3 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+  --primary-color: #ec5242;
+  --secondary-color-1: #272a31;
+  --secondary-color-2: #d3d3d3;
+}
+
 body {
-  border: 1px solid #000;
+  /* overflow-x: hidden; */
 }
