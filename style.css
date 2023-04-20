@@ -20,7 +20,7 @@ body {
 }
 
 #homepage {
-  border: 0px solid red;
+  border: 0 solid red;
   height: fit-content;
   width: 100%;
   display: flex;
@@ -33,12 +33,13 @@ body {
 
 .highlevel-section {
   padding: 3%;
-  border: 0px solid blue;
+  border: 0 solid blue;
   height: fit-content;
   width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+
   /* justify-content: center; */
   align-items: center;
   position: relative;
@@ -60,25 +61,25 @@ body {
 
 #featuredspeakers-section {
   /* background-image: url(../images/hero-image.jpg); */
-  background: #ffffff;
+  background: #fff;
 }
 
 .highlevel-section .highlevel-section-div {
-  border: 0px solid green;
+  border: 0 solid green;
   width: 100%;
 }
 
 .highlevel-section .highlevel-section-div .highlevel-section-div-1 {
-  border: 0px solid yellow;
+  border: 0 solid yellow;
   display: grid;
   grid-template-columns: 15% 25% 1fr;
   padding: 5%;
   row-gap: 5%;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .highlevel-section .highlevel-section-div .highlevel-section-div-2 {
-  border: 0px solid yellow;
+  border: 0 solid yellow;
   display: grid;
   grid-template-columns: 30% 1fr;
   column-gap: 5%;
@@ -93,19 +94,18 @@ body {
 }
 
 #head-7,
-  #head-8,
-  #head-9,
-  #head-10 {
-    display: none;
-  }
+#head-8,
+#head-9,
+#head-10 {
+  display: none;
+}
 
-  #partners {
-    display: none;
-  }
+#partners {
+  display: none;
+}
 
 /* Styles for The 768px and Bigger Screens (Desktop Version) */
 @media only screen and (min-width: 768px) {
-
   #head-1 {
     font-size: 2.5rem !important;
     padding-left: 10%;
@@ -118,6 +118,7 @@ body {
 
   #head-3 {
     /* font-size: 4.5rem !important; */
+
     /* padding-left: 10%; */
     max-width: 650px;
     margin-right: 30%;
@@ -125,6 +126,7 @@ body {
 
   #head-3-i {
     /* font-size: 4.5rem !important; */
+
     /* padding-left: 10%; */
     max-width: 600px;
   }
@@ -164,7 +166,7 @@ body {
   #head-6-iii:hover,
   #head-6-iv:hover,
   #head-6-v:hover {
-    border: 2px solid #ffffff;
+    border: 2px solid #fff;
     cursor: pointer;
   }
 
@@ -240,7 +242,7 @@ body {
     width: 100%;
     height: fit-content;
     padding: 0 10%;
-    background: #ffffff;
+    background: #fff;
     color: #272a31;
   }
 
