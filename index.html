@@ -3,10 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lato Font Link Family/Style/Size -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome Link -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- Free FontAwesome Link -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Style Sheet Link -->
+    <link rel="stylesheet" href="style.css">
+    <title>The Way of Humanity - Flood Victims</title>
 </head>
 <body>
-    <h1>Hi!</h1>
+    <div id="homepage">
+        <!-- Header Menu-1-2 -->
+        <header id="header-menu-1-2">
+            <!-- Toolbar header 1 -->
+            <div id="header-menu-1" class="">
+              <!-- Toolbar Name -->
+              <div id="spacer-menu-1" class="">
+                
+              </div>
+              <!-- Toolbar Menu -->
+              <nav class="">
+                <a href="#" class="header-icons"><i class=""></i></a>
+                <a href="#" class="header-icons"><i class=""></i></a>
+              </nav>
+              <nav class="" style="width: 20%; display: flex; flex-direction: row; justify-content: space-between;">
+                <a href="#english" style="color: #d3d3d3; font-size: 0.8rem;"><b>English</b></a>
+                <a href="#mypage" style="color: #d3d3d3; font-size: 0.8rem;"><b>My Page</b></a>
+                <a href="#logout" style="color: #d3d3d3; font-size: 0.8rem;"><b>Logout</b></a>
+              </nav>
+            </div>
+            <!-- Toolbar header 2 -->
+            <div id="header-menu-2" class="">
+                <!-- Toolbar Name -->
+                <div class="" style="width: 20%;">
+                  <a href="./index.html"><img style="height: 60px; width: 200px;" src="./assets/LogoTWOH.PNG" /></a>
+                </div>
+                <!-- Toolbar Menu -->
+                <nav class="" style="width: 65%; padding-left: 20%; display: flex; flex-direction: row; justify-content: space-between; font-size: 0.8rem;">
+                  <a href="./index.html" style="color: #272a31;"><b>Home</b></a>
+                  <a href="./about.html" style="color: #272a31;"><b>About</b></a>
+                  <a href="./index.html" style="color: #272a31;"><b>Attend</b></a>
+                  <a href="./index.html" style="color: #272a31;"><b>Donate</b></a>
+                  <a href="./index.html" style="color: #272a31;"><b>News</b></a>
+                </nav>
+                <div style="width: 15%; display: flex; flex-direction: row; justify-content: flex-end;"><button style="border: 4px solid #ec5242; outline: none; background: #ffffff;" class="p-2">
+                    <a href="#contact" style="color: #ec5242;"><b>Donate</b></a>
+                </button></div>
+              </div>
+          </header>
+        <div id="menu" style="width: 100vw; height: 100vh; background-color: #272a31; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 10; display: none;">
+            <div class="">
+                <a id="close-menu" style="display: block; color: #ec5242; font-size: 3rem; position: relative; left: 90%;"><b>&times;</b></a>
+                <a href="./index.html" class="mt-5" style="display: block; color: #ec5242; text-decoration: none; font-size: 1.8rem; position: relative; left: 10%;"><b>Home</b></a>
+                <hr style="width: 100%; background-color: #d3d3d3;">
+                      <a href="./about.html" style="display: block; color: #ec5242; text-decoration: none; font-size: 1.8rem; position: relative; left: 10%; "><b>About</b></a>
+                      <hr style="width: 100%; background-color: #d3d3d3;">
+                      <a href="./index.html" style="display: block; color: #ec5242; text-decoration: none; font-size: 1.8rem; position: relative; left: 10%;"><b>Attend</b></a>
+                      <hr style="width: 100%; background-color: #d3d3d3;">
+                      <a href="./index.html" style="display: block; color: #ec5242; text-decoration: none; font-size: 1.8rem; position: relative; left: 10%;"><b>Donate</b></a>
+                      <hr style="width: 100%; background-color: #d3d3d3;">
+                      <a href="./index.html" style="display: block; color: #ec5242; text-decoration: none; font-size: 1.8rem; position: relative; left: 10%;"><b>News</b></a>
+                      <hr style="width: 100%; background-color: #d3d3d3;">
+              </div>
+          
+        </div>
+        <!-- Main Hero Section with Hamburger Menu -->
+        <main id="hero-section" class="highlevel-section">
+            <div class="highlevel-section-div">
+                <img id="hamburger-menu" class="show-menu" style="" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/000000/external-horizontal-separated-bars-representing-hamburger-menu-layout-grid-bold-tal-revivo.png"/>
+            </div>
+            <div class="highlevel-section-div mt-5 p-0">
+            <p id="head-1" style="color: #ec5242; font-size: 1.3rem;line-height: fit;"><b>"Hello! Sharing world"</b></p>
+            </div>
+            <div class="highlevel-section-div mb-3"><h2 id="head-2" style="color: #ec5242; font-weight:900">CREATIVE COMMONS<br> GLOBAL SUMMIT<br> 2015</h2></div>
+            <div id="head-3" class="highlevel-section-div p-3" style="background-color: #d3d3d3; border: 3px solid #ffffff;"><p id="head-3-i" style="font-weight: 400; font-size: 1rem; color: #272a31;">
+                <b>A joyful celebration believing in the value of of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</b>
+            </p></div>
+            <div id="head-4" class="highlevel-section-div mt-3 mb-3"><h2 style="font-weight: 900; font-size: 1.6; color: #272a31;">
+                <b>2015.10.15(THU) ~ 16(FRI)</b>
+            </h2></div>
+            <div id="head-5" class="highlevel-section-div mb-5"><p style="font-weight: 400; color: #272a31;">
+                <b>@ National Museum of Korea, Art Center Nabi and more</b>
+            </p></div>
+        </main>
+        <section id="mainprogram-section" class="highlevel-section pt-5" style="color: white;">
+            <div class="highlevel-section-div">
+                <p style="text-align: center; font-size: 1.5rem;">Main Program</p><center><hr style="border: 1px solid #ec5242; width: 10%;"></center>
+                </div>
+    
+                <div id="head-6" class="highlevel-section-div mt-3">
+                    <div id="head-6-i" class="highlevel-section-div-1 mb-2">
+                        <div style="align-self: center; justify-self: center;"><img src="./assets/presenter.png" alt="Lecture" /></div>
+                        <div style="align-self: center; justify-self: center; color: #ec5242;"><b>Lecture</b></div>
+                        <div style="align-self: center; justify-self: center; color: #d3d3d3;"><p>Listen to the speakers from various countries about the messages of sharing and opening.</p></div>
+                    </div>
+                    <div id="head-6-ii" class="highlevel-section-div-1 mb-2">
+                        <div style="align-self: center; justify-self: center;"><img src="./assets/ticket-office.png" alt="Exhibition" /></div>
+                        <div style="align-self: center; justify-self: center; color: #ec5242;padding-left: 8%;"><b>CC Exhibition</b></div>
+                        <div style="align-self: center; justify-self: center; color: #d3d3d3"><p>Appreciate various creations CC license of artists, organized from Art Center Nabi.</p></div>
+                    </div>
+                    <div id="head-6-iii" class="highlevel-section-div-1 mb-2">
+                        <div style="align-self: center; justify-self: center;"><img src="./assets/socialize.png" alt="Forum" /></div>
+                        <div style="align-self: center; justify-self: center; color:#ec5242"><b>Forum</b></div>
+                        <div style="align-self: center; justify-self: center; color:#d3d3d3"><p>Have the time to share your thoughts and opinions with experts for each topic.</p></div>
+                    </div>
+                    <div id="head-6-iv" class="highlevel-section-div-1 mb-2">
+                        <div style="align-self: center; justify-self: center;"><img src="./assets/workshop.png" alt="Workshop" /></div>
+                        <div style="align-self: center; justify-self: center; color: #ec5242;"><b>Workshop</b></div>
+                        <div style="align-self: center; justify-self: center; color: #d3d3d3;"><p>Try creating your own work using open source license rather than just watching</p></div>
+                    </div>
+                    <div id="head-6-v" class="highlevel-section-div-1 mb-2">
+                        <div style="align-self: center; justify-self: center;"><img src="./assets/push-button.png" alt="Ignite" /></div>
+                        <div style="align-self: center; justify-self: center; color:#ec5242"><b>CC Ignite</b></div>
+                        <div style="align-self: center; justify-self: center; color:#d3d3d3"><p>Get opportunities to network with CC affiliates around the world, also after the summit.</p></div>
+                    </div>
+                </div>
+                <div id="button-1" class="highlevel-section-div mt-5 mb-5" ><center><button class="p-4" style="background-color: #ec5242; border: none; color: #ffffff; font-size: 1.3rem; width: 70%">
+                    Join CC Global Summit 2015
+                </button></center></div>
+                <div id="button-2" class="highlevel-section-div mt-5 mb-5" ><center><button class="p-4" style="text-decoration: underline; border: none; background: transparent; color: #d3d3d3; font-size: 1.0rem; width: 70%">
+                    SEE THE WHOLE PROGRAM
+                </button></center></div>
+        </section>
+        <!-- <section id="featuredspeakers-section" class="highlevel-section">
+            <div class="highlevel-section-div mt-3">
+                <p style="text-align: center; font-weight: 700;font-size: 1.7rem;">Featured Speakers</p>
+                <center><hr style="border: 1px solid #ec5242; width: 10%;"></center>
+                </div>
+
+                <div id="block-78910" class="highlevel-section-div mt-5">
+                    <div  class="highlevel-section-div-2 mb-5">
+                        <div><img src="./assets/lecturer1.jpg" alt="lecture 2" /></div>
+                        <div><h4 style="font-weight: 700;">Yochai Benkler</h4>
+                        <p style="font-style: italic; color:#ec5242; font-size: 0.85rem; font-weight: 700;">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p><hr style="border: 1px solid #d3d3d3; width: 10%;"><p style="font-size: 0.75rem;">Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006</p></div>
+                    </div>
+                    <div class="highlevel-section-div-2 mb-5">
+                        <div><img src="./assets/lecturer3.jpg" alt="lecture 2" /></div>
+                        <div><h4 style="font-weight: 700;">SohYeong Noh</h4>
+                            <p style="font-style: italic; color:#ec5242; font-size: 0.85rem; font-weight: 700;">Director of Art Centre Nabi and a board member of CC Korea</p><hr style="border: 1px solid #d3d3d3; width: 10%;"><p style="font-size: 0.75rem;">As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</p></div>
+                    </div>
+                    <div id="head-7" class="highlevel-section-div-2 mb-5">
+                        <div><img src="./assets/lecturer2.jpg" alt="lecture 3" /></div>
+                        <div><h4 style="font-weight: 700;">SohYeong Noh</h4>
+                            <p style="font-style: italic; color:#ec5242; font-size: 0.85rem; font-weight: 700;">Director of Art Centre Nabi and a board member of CC Korea</p><hr style="border: 1px solid #d3d3d3; width: 10%;"><p style="font-size: 0.75rem;">As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</p></div>
+                    </div>
+                    <div id="head-8" class="highlevel-section-div-2 mb-5">
+                        <div><img src="./assets/lecturer4.jpg" alt="lecture 4" /></div>
+                        <div><h4 style="font-weight: 700;">SohYeong Noh</h4>
+                            <p style="font-style: italic; color:#ec5242; font-size: 0.85rem; font-weight: 700;">Director of Art Centre Nabi and a board member of CC Korea</p><hr style="border: 1px solid #d3d3d3; width: 10%;"><p style="font-size: 0.75rem;">As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</p></div>
+                    </div>
+                    <div id="head-9" class="highlevel-section-div-2 mb-5">
+                        <div><img src="./assets/lecturer5.jpg" alt="lecture 6" /></div>
+                        <div><h4 style="font-weight: 700;">SohYeong Noh</h4>
+                            <p style="font-style: italic; color:#ec5242; font-size: 0.85rem; font-weight: 700;">Director of Art Centre Nabi and a board member of CC Korea</p><hr style="border: 1px solid #d3d3d3; width: 10%;"><p style="font-size: 0.75rem;">As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</p></div>
+                    </div>
+                    <div id="head-10" class="highlevel-section-div-2 mb-5">
+                        <div><img src="./assets/lecturer6.jpg" alt="lecture 6" /></div>
+                        <div><h4 style="font-weight: 700;">SohYeong Noh</h4>
+                            <p style="font-style: italic; color:#ec5242; font-size: 0.85rem; font-weight: 700;">Director of Art Centre Nabi and a board member of CC Korea</p><hr style="border: 1px solid #d3d3d3; width: 10%;"><p style="font-size: 0.75rem;">As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</p></div>
+                    </div>
+                </div>
+                <div id="button-3" class="highlevel-section-div mb-5"><button class="p-2" style="width: 100%; background-color: #ffffff; border: 1px solid #d3d3d3; border-radius: 5%;">
+                    MORE <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ec5242" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                      </svg>
+                </button></div>
+        </section> -->
+        <section id="partners" class="highlevel-section pt-5 pb-5" style="background: #272a31; color: white;">
+            <div class="highlevel-section-div" style="display: flex; flex-direction: column;">
+                <p style="text-align: center; font-size: 1.4rem;">Partner</p><center><hr style="border: 1px solid #ec5242; width: 10%; margin-top: 0%;"></center>
+                </div>
+                
+                <div class="highlevel-section-div p-4" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 5%; justify-content: space-around;">
+                    <div style="width: 100px; height: 100px;"><img src="./assets/logoNP1.png" alt="logo1"/></div>
+                    <div style="width: 100px; height: 100px;"><img src="./assets/logoNP2.png" alt="logo2"/></div>
+                    <div style="width: 100px; height: 100px;"><img src="./assets/logoNP3.png" alt="logo3"/></div>
+                    <div style="width: 100px; height: 100px;"><img src="./assets/logoNP4.jpg" alt="logo4"/></div>
+                    <div style="width: 100px; height: 100px;"><img src="./assets/logoNP6.jpeg" alt="logo5"/></div>
+                    </div>
+        </section>
+        <hr style="border: 1px solid #d3d3d3; width: 100%">
+        <section id="footer" class="highlevel-section mt-0 mb-0">
+            <div class="highlevel-section-div p-2" style="display: flex; justify-content: center; align-items: center;">
+                <div class=""><img src="./assets/LogoTWOH.PNG" /></div>
+                <div><p style="text-align: justify; font-weight: 700; font-size: 0.9rem; color: #272a31">2015 Creative Commons Korea<br>Some Rights Reserved.</p>
+                </div></div>
+        </section>
+    </div>
+
+    <!-- Javascript Script Link -->
+    <script src="./index.js"></script>
+    <!-- Bootstrap Script Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>
