@@ -78,8 +78,8 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: rgba(236, 82, 66, 0.3);
   background-image: url('./assets/conference1.jpg');
+  background: rgba(236, 82, 66, 0.3);
 }
 
 #header-menu-1-2 {
